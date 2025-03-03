@@ -1,0 +1,7 @@
+PALETA DE COLORES GRETA SOFT:
+
+Color principal: #1E656D
+Color secundario: #50A7A7
+Color de acento: #82D8C6
+Color de fondo: #E6F7F7 
+Color de texto: #102A2D 

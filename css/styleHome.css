@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* GLOBALES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    color: #7494ec;
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, var(--fondo), var(--terciario));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box{
+    text-align: center;
+}
+
+.box p{
+    font-size: 22px;
+}
+
+.box button{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
