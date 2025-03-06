@@ -6,7 +6,7 @@ require_once '../config/config.php';
 if (isset($_POST['register'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $password = password_hash( $_POST['password'], PASSWORD_DEFAULT);
+    $password = password_hash( $_POST['password'], PASSWORD_BCRYPT, ['cost' => 4]);
     $role = $_POST['role'];
 
     $checkEmail = $connect->query("SELECT email FROM users WHERE email = '$email'");
